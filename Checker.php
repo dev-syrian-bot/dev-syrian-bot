@@ -4,9 +4,9 @@ error_reporting(1);
 
 system("clear");
 
-$Token = "1808062016:AAFSGdtUgtHfwBKGPEKiL2IE45V_WtuHusM";
+$Token = readline("Your Token : ");
 
-$Admin = 1484504144;
+$Admin = readline("Your Id : ");
 
 define('API_KEY',$Token);
 
